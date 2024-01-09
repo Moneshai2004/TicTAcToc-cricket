@@ -1,13 +1,31 @@
+
+<!-- Declaration of the document type and the document's language -->
 <!DOCTYPE html>
+
+<!-- Opening tag for the HTML document with the 'en' language attribute -->
 <html lang="en">
+
+  <!-- Head section containing metadata and external resources -->
   <head>
+    <!-- Character set specification for the document -->
     <meta charset="UTF-8" />
+
+    <!-- Responsive viewport configuration for various devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Document title -->
     <title>TicTacToe</title>
+
+    <!-- Link to an external stylesheet for styling -->
     <link rel="stylesheet" href="style.css">
   </head>
+
+  <!-- Body section containing the content of the HTML document -->
   <body>
+
+    <!-- Main container div for the Tic Tac Toe game -->
     <div class="container">
+      <!-- Individual boxes for the Tic Tac Toe grid with data-index attributes -->
       <div data-index="0" class="box"></div>
       <div data-index="1" class="box"></div>
       <div data-index="2" class="box"></div>
@@ -18,8 +36,17 @@
       <div data-index="7" class="box"></div>
       <div data-index="8" class="box"></div>
     </div>
+
+    <!-- Status display div indicating the current state of the game -->
     <div id="status">play now</div>
+
+    <!-- Restart button to reset the Tic Tac Toe game -->
     <button id="Restart">Restart</button>
+
+    <!-- External JavaScript file for scripting the behavior of the game -->
     <script src="/script.js"></script>
+
   </body>
+  <!-- Closing tag for the HTML document -->
 </html>
+```
